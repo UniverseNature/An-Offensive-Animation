@@ -1,2 +1,4 @@
 # An-Offensive-Animation
-I know this is extremely offensive to the Japanese, but I only made it to hone my CSS Animation skills. I have apologised everywhere, even in the code. So I hope you do not get offended by this.
+
+I made it to get used to animation, as most of my websites don't have any animation. I also don't animate much, so it was fun for me and it also helped me out in 
+programming. Again, this is purely for entertainment purposes, not to strike fear in the hearts of the Japanese.
