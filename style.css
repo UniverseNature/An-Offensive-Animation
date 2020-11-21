@@ -1,0 +1,64 @@
+/* So that the text appears properly. */
+
+*{text-align: center;}
+
+footer h1 {position:relative;
+    top:310px;}
+
+/* Setting up the CSS for the animation elements. */
+
+#weapon1{width:200px;
+    position: absolute;
+    height:100px;
+    right:50px;
+    background-color:red;
+    animation-duration: 5s;
+    animation-name: weapon-red;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;}
+
+#weapon2{width:200px;
+    height:100px;
+    background-color:blue;
+    position: absolute;
+    animation-duration: 5s;
+    animation-name: weapon-blu;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    opacity:0;}
+
+#atomic-BOOM{position: absolute;
+    width:200px;
+    height:150px;
+    animation-duration: 5s;
+    animation-name: boom;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+    right:550px;
+    animation-fill-mode: forwards;
+    opacity:0;}
+
+/* Setting up the keyframes for the animation. */
+
+@keyframes weapon-blu{
+    from {right: 0px;
+        opacity:1;}
+    to {right: 500px;
+        opacity: 0;}
+}
+
+@keyframes boom{
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+
+@keyframes weapon-red{
+    from {left: 0px;}
+    to {left: 500px;
+        opacity:0;}
+}
+
+/* Again, please don't be offended by this. It took me alot of time to make this as 
+    I haven't done CSS animation in a long time. */
